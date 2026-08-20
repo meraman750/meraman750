@@ -17,7 +17,7 @@ Building backend architectures, intelligent products, and modern web experiences
 <tr>
 <td width="64%" valign="top">
 
-## ⚡ Engineering Model
+## Engineering Model
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ Supabase
 
 ## 🔬 Selected Engineering
 
-### 🌱 Brightroot Academy
+### Brightroot Academy
 
 **AI-powered study companion for Grades 9–12.**
 
@@ -106,7 +106,7 @@ Building intelligent learning workflows around study material, quiz generation, 
 
 ---
 
-### 🛠️ FixIT Marketplace
+### FixIT Marketplace
 
 **Location-aware service marketplace connecting customers with service providers.**
 
@@ -116,7 +116,7 @@ A RESTful backend supporting customer-provider interactions, service discovery, 
 
 ---
 
-### 📦 Inventory & Business Systems
+### Inventory & Business Systems
 
 **Backend systems for inventory and operational workflows.**
 
@@ -126,7 +126,7 @@ Working with stock entries, reservations, locations, authorization rules, tenant
 
 ---
 
-### 🌐 Interactive Portfolio
+### Interactive Portfolio
 
 **Personal engineering portfolio built around modern web interaction.**
 
@@ -301,7 +301,7 @@ Next.js-based experience combining modern UI, animation, Three.js/WebGL, and pro
 
 ---
 
-# 🧠 Engineering Principles
+# Engineering Principles
 
 <table>
 <tr>
@@ -348,7 +348,7 @@ Systems should evolve with requirements.
 
 <td width="20%" align="center">
 
-### 🚀
+### 📈
 
 **LEARN BY BUILDING**
 
