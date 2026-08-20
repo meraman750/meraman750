@@ -1,6 +1,6 @@
 <div align="center">
 
-# Meheretabe <span style="color:#8B5CF6;">(Mera)</span>
+# Meheretabe <span style="color:#8B5CF6;">Abayneh</span>
 
 ### Full-Stack Systems Builder · Backend Architecture · Intelligent Products
 
@@ -8,7 +8,7 @@ Building backend architectures, intelligent products, and modern web experiences
 
 <br/>
 
-<a href="https://meheretabeabayneh.pro.et">
+<a href="https://portfolio-fkjdxizl3-mera7.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 &nbsp;
