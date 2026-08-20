@@ -1,111 +1,129 @@
-# Meheretabe (Mera)
+<div align="center">
+
+# Meheretabe <span style="color:#8B5CF6;">(Mera)</span>
 
 ### Full-Stack Systems Builder · Backend Architecture · Intelligent Products
 
-I build **full-stack products and backend systems** that turn real-world problems into reliable, usable software.
+Building backend architectures, intelligent products, and modern web experiences that solve real-world problems.
 
-My work spans **backend architecture, modern web applications, AI-powered workflows, business systems, APIs, databases, and system design**. I enjoy working across the stack—from modeling data and designing business logic to building interfaces and shipping the final product.
+<br/>
 
-Currently pursuing a **BEng in Software Engineering at Addis Ababa Science and Technology University (AASTU)**.
+<a href="https://meheretabeabayneh.pro.et">
+  <img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/meraman750">
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:meraman675@gmail.com">
+  <img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
-[Portfolio](https://meheretabeabayneh.pro.et) · [LinkedIn](#) · [Email](#)
+</div>
 
----
+<br/>
 
-## ⚡ Engineering Snapshot
+<table>
+<tr>
+<td width="64%" valign="top">
 
-```text
-BUILDING
-Full-stack products · Backend systems · AI-powered applications
+## ⚡ Engineering Model
 
-THINKING ABOUT
-Architecture · Data integrity · Authorization · Maintainability
+<table>
+<tr>
 
-WORKING ACROSS
-Frontend → API → Business Logic → Data → Infrastructure
+<td align="center" width="20%">
 
-CORE STACK
-TypeScript · Java · Python · React · Next.js · Django · Spring Boot · PostgreSQL
-```
+### 🖥️
 
----
+**INTERFACE**
 
-## 🧭 What I Build
+React  
+Next.js  
+Three.js  
+Tailwind
 
-I am particularly interested in systems where **product experience and engineering depth meet**.
+</td>
 
-* **Full-stack applications** — from interface to database
-* **Backend systems** — APIs, business logic, workflows, and authorization
-* **AI-powered products** — practical AI integrated into real applications
-* **Business platforms** — inventory, marketplace, and operational workflows
-* **Data-driven systems** — relational modeling, persistence, and integrity
-* **Interactive interfaces** — modern web experiences with thoughtful motion and 3D
+<td align="center" width="4%">
 
----
+→
 
-## 🏗️ My Engineering Model
+</td>
 
-```text
-                    PRODUCT
-                       │
-                       ▼
-              ┌─────────────────┐
-              │    INTERFACE    │
-              │ React / Next.js │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │       API       │
-              │ Django / Spring │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ BUSINESS LOGIC  │
-              │ Rules · Auth ·  │
-              │    Workflows    │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │      DATA       │
-              │   PostgreSQL    │
-              │    / Supabase   │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │   DEPLOYMENT    │
-              │ Docker · Cloud  │
-              └─────────────────┘
-```
+<td align="center" width="20%">
 
-I don't see frontend and backend as separate worlds.
+### `</>`
 
-I enjoy understanding how the pieces connect—and how decisions in one layer affect the rest of the system.
+**API LAYER**
 
----
+Django  
+Spring Boot  
+REST APIs
 
-# 🔬 Selected Engineering
+</td>
+
+<td align="center" width="4%">
+
+→
+
+</td>
+
+<td align="center" width="20%">
+
+### ⚙️
+
+**BUSINESS LOGIC**
+
+Workflows  
+Authorization  
+RBAC
+
+</td>
+
+<td align="center" width="4%">
+
+→
+
+</td>
+
+<td align="center" width="20%">
+
+### 🗄️
+
+**DATA**
+
+PostgreSQL  
+MySQL  
+Supabase
+
+</td>
+
+</tr>
+</table>
+
+<br/>
+
+## 🔬 Selected Engineering
 
 ### 🌱 Brightroot Academy
 
 **AI-powered study companion for Grades 9–12.**
 
-Exploring how AI can make educational software more interactive and useful through capabilities such as document-based learning, quiz generation, summaries, and intelligent study workflows.
+Building intelligent learning workflows around study material, quiz generation, summaries, and AI-assisted learning experiences.
 
-**Focus:** AI integration · Education technology · Full-stack development · Product design
+`AI` `Django` `REST APIs` `PostgreSQL`
 
 ---
 
-### 🛠️ FixIT
+### 🛠️ FixIT Marketplace
 
 **Location-aware service marketplace connecting customers with service providers.**
 
-A marketplace system involving job requests, bookings, notifications, ratings, matching, and location-aware workflows.
+A RESTful backend supporting customer-provider interactions, service discovery, booking workflows, matching, notifications, and ratings.
 
-**Focus:** Django · REST APIs · PostgreSQL · Marketplace logic · Matching · Authorization
+`Python` `Django` `DRF` `PostgreSQL` `RapidFuzz`
 
 ---
 
@@ -113,188 +131,312 @@ A marketplace system involving job requests, bookings, notifications, ratings, m
 
 **Backend systems for inventory and operational workflows.**
 
-Work involving stock entries, reservations, locations, authorization rules, tenant-aware data, persistence, and business-rule enforcement.
+Working with stock entries, reservations, locations, authorization rules, tenant-aware data, persistence, and business-rule enforcement.
 
-A recent engineering challenge involved ensuring reservation logic uses the **actual location associated with a stock entry**, preventing inconsistent location-based authorization and data access.
-
-**Focus:** Java · Spring Boot · PostgreSQL · JPA · Docker · Business logic · Authorization
+`Java` `Spring Boot` `PostgreSQL` `JPA`
 
 ---
 
 ### 🌐 Interactive Portfolio
 
-**Personal engineering portfolio built with Next.js and Three.js.**
+**Personal engineering portfolio built around modern web interaction.**
 
-An experiment in combining modern web engineering with interactive 3D experiences, animation, and product-oriented interface design.
+Next.js-based experience combining modern UI, animation, Three.js/WebGL, and product-oriented interface design.
 
-**Focus:** Next.js · React · Three.js · Tailwind CSS · Interactive UI
+`Next.js` `React` `Three.js` `Tailwind CSS`
 
----
+</td>
+
+<td width="36%" valign="top">
 
 # 🧬 Technical DNA
 
 ### Languages
 
-`TypeScript` `Java` `Python` `JavaScript` `SQL`
+<p align="center">
+
+<a href="https://www.typescriptlang.org/">
+<img src="https://skillicons.dev/icons?i=ts" width="45" />
+</a>
+<a href="https://www.java.com/">
+<img src="https://skillicons.dev/icons?i=java" width="45" />
+</a>
+<a href="https://www.python.org/">
+<img src="https://skillicons.dev/icons?i=python" width="45" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+<img src="https://skillicons.dev/icons?i=js" width="45" />
+</a>
+
+<br/>
+
+<a href="https://isocpp.org/">
+<img src="https://skillicons.dev/icons?i=cpp" width="45" />
+</a>
+<a href="https://www.php.net/">
+<img src="https://skillicons.dev/icons?i=php" width="45" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+<img src="https://skillicons.dev/icons?i=html" width="45" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+<img src="https://skillicons.dev/icons?i=css" width="45" />
+</a>
+
+</p>
+
+<p align="center">
+<sub>TypeScript · Java · Python · JavaScript · C++ · PHP · HTML5 · CSS3</sub>
+</p>
+
+---
 
 ### Frontend
 
-`React` `Next.js` `Vite` `React Router` `Tailwind CSS` `Bootstrap` `Three.js`
+<p align="center">
+
+<a href="https://react.dev/">
+<img src="https://skillicons.dev/icons?i=react" width="48" />
+</a>
+<a href="https://nextjs.org/">
+<img src="https://skillicons.dev/icons?i=nextjs" width="48" />
+</a>
+<a href="https://tailwindcss.com/">
+<img src="https://skillicons.dev/icons?i=tailwind" width="48" />
+</a>
+<a href="https://threejs.org/">
+<img src="https://skillicons.dev/icons?i=threejs" width="48" />
+</a>
+
+</p>
+
+<p align="center">
+<sub>React · Next.js · Tailwind CSS · Three.js</sub>
+</p>
+
+---
 
 ### Backend
 
-`Django` `Django REST Framework` `Spring Boot` `Node.js`
+<p align="center">
+
+<a href="https://www.djangoproject.com/">
+<img src="https://skillicons.dev/icons?i=django" width="48" />
+</a>
+<a href="https://nodejs.org/">
+<img src="https://skillicons.dev/icons?i=nodejs" width="48" />
+</a>
+<a href="https://expressjs.com/">
+<img src="https://skillicons.dev/icons?i=express" width="48" />
+</a>
+<a href="https://spring.io/projects/spring-boot">
+<img src="https://skillicons.dev/icons?i=spring" width="48" />
+</a>
+
+</p>
+
+<p align="center">
+<sub>Django · Django REST Framework · Node.js · Express.js · Spring Boot</sub>
+</p>
+
+---
 
 ### Data
 
-`PostgreSQL` `Supabase` `MySQL` `JPA / Hibernate`
+<p align="center">
 
-### AI
+<a href="https://www.postgresql.org/">
+<img src="https://skillicons.dev/icons?i=postgres" width="48" />
+</a>
+<a href="https://www.mysql.com/">
+<img src="https://skillicons.dev/icons?i=mysql" width="48" />
+</a>
+<a href="https://supabase.com/">
+<img src="https://skillicons.dev/icons?i=supabase" width="48" />
+</a>
 
-`OpenAI` `Google Gemini` `GitHub Models` `AI Application Integration`
+</p>
 
-### Infrastructure & Tools
-
-`Git` `GitHub` `Docker` `Maven` `npm` `Postman` `Vercel` `VS Code` `IntelliJ`
-
----
-
-# 🧠 How I Approach Engineering
-
-### Understand the system before optimizing it.
-
-I try to understand the relationships between data, business rules, APIs, and user workflows before changing individual pieces.
-
-### Treat authorization as part of the architecture.
-
-Permissions shouldn't be an afterthought. Access rules belong close to the business logic and data boundaries they protect.
-
-### Prefer clarity over unnecessary complexity.
-
-I would rather build a simple system that is easy to understand and evolve than introduce complexity before the problem requires it.
-
-### Build for change.
-
-Requirements evolve. Good architecture should make that evolution less painful.
-
-### Learn by building.
-
-The fastest way I have found to understand a technology is to use it to solve a real problem.
+<p align="center">
+<sub>PostgreSQL · MySQL · Supabase</sub>
+</p>
 
 ---
 
-# 🔭 Currently
+### AI & Integrations
 
-**Building**
+<p align="center">
 
-Full-stack systems and backend-heavy applications.
+<img src="https://skillicons.dev/icons?i=openai" width="48" />
+<img src="https://skillicons.dev/icons?i=gemini" width="48" />
+<img src="https://skillicons.dev/icons?i=github" width="48" />
 
-**Exploring**
+</p>
 
-System design, scalable backend architecture, AI-powered products, and modern developer workflows.
-
-**Improving**
-
-Architecture, testing, security, database design, performance, and production engineering.
-
----
-
-# 🧪 Engineering Interests
-
-```text
-Backend Architecture
-████████████████████
-
-System Design
-██████████████████░░
-
-Full-Stack Development
-████████████████████
-
-AI Applications
-██████████████████░░
-
-Database Engineering
-██████████████████░░
-
-Interactive Web
-████████████████░░░░
-```
-
-These aren't performance scores.
-
-They're simply a visual representation of the areas I currently spend the most time exploring.
+<p align="center">
+<sub>OpenAI · Google Gemini · GitHub Models · REST Integrations</sub>
+</p>
 
 ---
 
-# 🛰️ Engineering Control Room
+### Tools & Workflow
 
-```text
-┌─────────────────────────────────────────────────────┐
-│                 ENGINEERING CONTROL                 │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│  PRIMARY FOCUS                                      │
-│  Backend Architecture · Full-Stack Systems          │
-│                                                     │
-│  BUILDING                                           │
-│  Products · Business Systems · AI Applications      │
-│                                                     │
-│  CORE                                                │
-│  TypeScript · Java · Python · PostgreSQL            │
-│                                                     │
-│  FRAMEWORKS                                          │
-│  Next.js · React · Django · Spring Boot             │
-│                                                     │
-│  PRINCIPLES                                          │
-│  Correctness · Clarity · Maintainability            │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+<p align="center">
 
----
+<a href="https://git-scm.com/">
+<img src="https://skillicons.dev/icons?i=git" width="45" />
+</a>
+<a href="https://github.com/">
+<img src="https://skillicons.dev/icons?i=github" width="45" />
+</a>
+<a href="https://www.docker.com/">
+<img src="https://skillicons.dev/icons?i=docker" width="45" />
+</a>
+<a href="https://maven.apache.org/">
+<img src="https://skillicons.dev/icons?i=maven" width="45" />
+</a>
+<a href="https://www.postman.com/">
+<img src="https://skillicons.dev/icons?i=postman" width="45" />
+</a>
+<a href="https://code.visualstudio.com/">
+<img src="https://skillicons.dev/icons?i=vscode" width="45" />
+</a>
 
-# 📐 Selected Engineering Questions
+</p>
 
-I enjoy the questions behind the code:
+</td>
+</tr>
+</table>
 
-> How should a system enforce authorization when data belongs to different locations?
-
-> Where should a business rule live so that it cannot easily be bypassed?
-
-> When is a simple architecture no longer enough?
-
-> How should an AI capability become part of a real product rather than simply an API call?
-
-> How can a system remain understandable as its requirements grow?
-
-These questions increasingly shape how I approach the systems I build.
+<br/>
 
 ---
 
-# 📊 GitHub Activity
+# 🧠 Engineering Principles
 
-I prefer **proof of work over vanity metrics**.
+<table>
+<tr>
 
-The repositories below represent the systems, experiments, and ideas I have chosen to build and maintain.
+<td width="20%" align="center">
 
-[Explore my repositories →](https://github.com/meraman750?tab=repositories)
+### `</>`
+
+**UNDERSTAND**
+
+Deep understanding before optimization.
+
+</td>
+
+<td width="20%" align="center">
+
+### 🛡️
+
+**SECURE BY DESIGN**
+
+Authorization is part of the architecture.
+
+</td>
+
+<td width="20%" align="center">
+
+### ◇
+
+**KEEP IT SIMPLE**
+
+Complexity should be justified.
+
+</td>
+
+<td width="20%" align="center">
+
+### ↻
+
+**BUILD FOR CHANGE**
+
+Systems should evolve with requirements.
+
+</td>
+
+<td width="20%" align="center">
+
+### 🚀
+
+**LEARN BY BUILDING**
+
+Real problems create real understanding.
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-# 🤝 Let's Build
+<table>
+<tr>
 
-I'm interested in:
+<td width="25%" valign="top">
 
-* Software engineering opportunities
-* Internships and early-career engineering roles
-* Open-source collaboration
-* Backend and full-stack systems
-* AI-powered products
-* Interesting technical problems
+## 🟢 Currently
 
-If you're building something ambitious, I'd be happy to connect.
+Building full-stack systems and AI-powered products while exploring backend architecture, system design, and modern web experiences.
+
+</td>
+
+<td width="25%" valign="top">
+
+## 🧠 Interests
+
+- Backend Architecture
+- AI Applications
+- Database Design
+- System Design
+- Developer Experience
+- Open Source
+
+</td>
+
+<td width="25%" valign="top">
+
+## 🎯 Open To
+
+- Software Engineering Opportunities
+- Internships
+- Early Career Roles
+- Open Source Collaboration
+- Interesting Engineering Problems
+
+</td>
+
+<td width="25%" valign="top">
+
+## 🤝 Let's Connect
+
+I'm interested in collaborating on meaningful products, ambitious systems, and technically interesting problems.
+
+</td>
+
+</tr>
+</table>
 
 ---
+
+<div align="center">
+
+### `BUILD → DEBUG → UNDERSTAND → SHIP → IMPROVE`
+
+<br/>
+
+<a href="https://meheretabeabayneh.pro.et">
+<img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
+<a href="https://github.com/meraman750?tab=repositories">
+<img src="https://img.shields.io/badge/EXPLORE_MY_WORK-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
 
 <sub>Building systems. Learning continuously. Shipping deliberately.</sub>
+
+</div>
