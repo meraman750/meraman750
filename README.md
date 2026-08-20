@@ -416,10 +416,6 @@ I'm interested in collaborating on meaningful products, ambitious systems, and t
 
 <br/>
 
-<a href="https://meheretabeabayneh.pro.et">
-<img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-
 <a href="https://github.com/meraman750?tab=repositories">
 <img src="https://img.shields.io/badge/EXPLORE_MY_WORK-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
 </a>
