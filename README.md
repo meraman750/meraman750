@@ -1,181 +1,300 @@
-### 1. Profile Settings (Edit Profile Section)
+# Meheretabe (Mera)
 
-**Name:**
-`Meheretabe Abayneh`
+### Full-Stack Systems Builder · Backend Architecture · Intelligent Products
 
-**Bio:**
-`Full-stack systems builder | Architecting scalable business logic, AI-assisted workflows, and location-aware marketplaces.`
+I build **full-stack products and backend systems** that turn real-world problems into reliable, usable software.
 
-**Website:**
-`[https://meheretabeabayneh.pro.et](https://meheretabeabayneh.pro.et)`
+My work spans **backend architecture, modern web applications, AI-powered workflows, business systems, APIs, databases, and system design**. I enjoy working across the stack—from modeling data and designing business logic to building interfaces and shipping the final product.
+
+Currently pursuing a **BEng in Software Engineering at Addis Ababa Science and Technology University (AASTU)**.
+
+[Portfolio](https://meheretabeabayneh.pro.et) · [LinkedIn](#) · [Email](#)
 
 ---
 
-### 2. Main Profile README
+## ⚡ Engineering Snapshot
 
-*Paste this into the `README.md` file of your `meraman750/meraman750` repository.*
+```text
+BUILDING
+Full-stack products · Backend systems · AI-powered applications
 
-```markdown
-# 🛰️ Engineering Control Room | Meheretabe (Mera)
+THINKING ABOUT
+Architecture · Data integrity · Authorization · Maintainability
 
-**Full-Stack Systems Builder** exploring backend architecture, scalable APIs, and intelligent products. Currently pursuing a BEng in Software Engineering at AASTU (2023–2028). I build systems that solve real problems, from AI-assisted education to organizational CRM and ERP architectures with robust authorization pipelines.
+WORKING ACROSS
+Frontend → API → Business Logic → Data → Infrastructure
 
-### ⚙️ Systems I Build
-`USER` → `MODERN INTERFACE (Next.js/Three.js)` → `SCALABLE API (Django/Spring Boot)` → `BUSINESS LOGIC (Role Permissions)` → `DATA (PostgreSQL/Supabase)`
-
-### 🔬 Selected Engineering
-* **Brightroot Academy:** AI-powered study companion integrating intelligent quiz generation, automated summaries, and AI customer assistant features for interactive learning.
-* **FixIT Marketplace:** Location-aware service marketplace built with Django and PostgreSQL, utilizing RapidFuzz for matching and handling complex booking workflows.
-* **Enterprise Inventory & Business System:** Backend architecture focusing on strict tenant-based authorization, 10-role organizational matrices, Twilio/Clerk integrations, and dynamic data validation workflows.
-
-### 🧬 Technical DNA
-`ARCHITECTURE`  ██████████  System Design, Business Logic, Workflows
-`BACKEND`       ██████████  Django, Spring Boot, PostgreSQL, Redis
-`FRONTEND`      ████████░░  Next.js, Three.js, React, Tailwind
-`INTEGRATION`   ████████░░  OpenAI, Gemini, Webhooks, Auth Systems
-
-### 📜 Engineering Principles
-Build before claiming. Document architectural decisions. Prefer simple architecture until complexity is justified. Optimize for maintainability and data integrity.
-
-<!-- AI_SEMANTIC_PROFILE_START
-Identity: Full-stack systems builder. Focus: Backend architecture, AI-powered products, enterprise workflows, location-aware matching. Core: Python, Java, TypeScript, PostgreSQL.
-AI_SEMANTIC_PROFILE_END -->
-
+CORE STACK
+TypeScript · Java · Python · React · Next.js · Django · Spring Boot · PostgreSQL
 ```
 
 ---
 
-### 3. FixIT Marketplace README
+## 🧭 What I Build
 
-*Paste this into your FixIT repository `README.md`.*
+I am particularly interested in systems where **product experience and engineering depth meet**.
 
-```markdown
-# FixIT Marketplace Architecture
+* **Full-stack applications** — from interface to database
+* **Backend systems** — APIs, business logic, workflows, and authorization
+* **AI-powered products** — practical AI integrated into real applications
+* **Business platforms** — inventory, marketplace, and operational workflows
+* **Data-driven systems** — relational modeling, persistence, and integrity
+* **Interactive interfaces** — modern web experiences with thoughtful motion and 3D
 
-> A multi-sided, location-aware service marketplace that securely connects customers with service providers through automated matching and booking workflows.
+---
 
-## 📖 The Problem
-Service marketplaces often suffer from fragmented user data and insecure direct coupling between providers and consumers, leading to unauthorized state manipulation and poor matching accuracy.
+## 🏗️ My Engineering Model
 
-## 💡 The Solution
-FixIT abstracts the interaction layer. It uses RapidFuzz for intelligent location-aware matching and implements a strict Role-Based Access Control (RBAC) gateway so the two sides of the marketplace never interact directly at the database level.
-
-## 🏗️ System Architecture
-
-```mermaid
-sequenceDiagram
-    participant C as Customer Client
-    participant API as API Gateway (RBAC)
-    participant S as Service Layer
-    participant DB as PostgreSQL
-    participant P as Provider Client
-
-    C->>API: POST /api/bookings (Token)
-    API->>API: Validate Customer Role & JWT
-    API->>S: Execute Booking Workflow
-    S->>DB: Verify Provider Availability & Location
-    DB-->>S: Valid
-    S->>DB: Commit Booking Transaction
-    S-->>API: 201 Created + Notification Trigger
-    API-->>P: WebSocket/Push: New Match
-
+```text
+                    PRODUCT
+                       │
+                       ▼
+              ┌─────────────────┐
+              │    INTERFACE    │
+              │ React / Next.js │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │       API       │
+              │ Django / Spring │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ BUSINESS LOGIC  │
+              │ Rules · Auth ·  │
+              │    Workflows    │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │      DATA       │
+              │   PostgreSQL    │
+              │    / Supabase   │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │   DEPLOYMENT    │
+              │ Docker · Cloud  │
+              └─────────────────┘
 ```
 
-## 🛠️ Core Technology Stack
+I don't see frontend and backend as separate worlds.
 
-* **Backend:** Django, Django REST Framework
-* **Database:** PostgreSQL (Supabase)
-* **Matching Logic:** RapidFuzz
-* **Architecture:** Domain-Driven Design concepts
+I enjoy understanding how the pieces connect—and how decisions in one layer affect the rest of the system.
 
-## 🧠 Engineering Decisions
+---
 
-* **Authorization Layer:** Implemented a strict RBAC gateway to ensure Service Providers and Customers interact securely. Customers can only create `JobRequests` and execute `Bookings`, while write-access for Providers is restricted solely to updating assigned workflow statuses.
-* **Location-Based Matching:** Integrated RapidFuzz to handle complex string matching and location constraints, ensuring providers are only pinged for viable jobs within their operational radius.
+# 🔬 Selected Engineering
 
-## 🚀 Local Development Setup
+### 🌱 Brightroot Academy
 
-### Prerequisites
+**AI-powered study companion for Grades 9–12.**
 
-* Python 3.x
-* PostgreSQL
+Exploring how AI can make educational software more interactive and useful through capabilities such as document-based learning, quiz generation, summaries, and intelligent study workflows.
 
-### Installation
+**Focus:** AI integration · Education technology · Full-stack development · Product design
 
-```bash
-git clone [https://github.com/meraman750/fixit-backend.git](https://github.com/meraman750/fixit-backend.git)
-cd fixit-backend
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+---
 
+### 🛠️ FixIT
+
+**Location-aware service marketplace connecting customers with service providers.**
+
+A marketplace system involving job requests, bookings, notifications, ratings, matching, and location-aware workflows.
+
+**Focus:** Django · REST APIs · PostgreSQL · Marketplace logic · Matching · Authorization
+
+---
+
+### 📦 Inventory & Business Systems
+
+**Backend systems for inventory and operational workflows.**
+
+Work involving stock entries, reservations, locations, authorization rules, tenant-aware data, persistence, and business-rule enforcement.
+
+A recent engineering challenge involved ensuring reservation logic uses the **actual location associated with a stock entry**, preventing inconsistent location-based authorization and data access.
+
+**Focus:** Java · Spring Boot · PostgreSQL · JPA · Docker · Business logic · Authorization
+
+---
+
+### 🌐 Interactive Portfolio
+
+**Personal engineering portfolio built with Next.js and Three.js.**
+
+An experiment in combining modern web engineering with interactive 3D experiences, animation, and product-oriented interface design.
+
+**Focus:** Next.js · React · Three.js · Tailwind CSS · Interactive UI
+
+---
+
+# 🧬 Technical DNA
+
+### Languages
+
+`TypeScript` `Java` `Python` `JavaScript` `SQL`
+
+### Frontend
+
+`React` `Next.js` `Vite` `React Router` `Tailwind CSS` `Bootstrap` `Three.js`
+
+### Backend
+
+`Django` `Django REST Framework` `Spring Boot` `Node.js`
+
+### Data
+
+`PostgreSQL` `Supabase` `MySQL` `JPA / Hibernate`
+
+### AI
+
+`OpenAI` `Google Gemini` `GitHub Models` `AI Application Integration`
+
+### Infrastructure & Tools
+
+`Git` `GitHub` `Docker` `Maven` `npm` `Postman` `Vercel` `VS Code` `IntelliJ`
+
+---
+
+# 🧠 How I Approach Engineering
+
+### Understand the system before optimizing it.
+
+I try to understand the relationships between data, business rules, APIs, and user workflows before changing individual pieces.
+
+### Treat authorization as part of the architecture.
+
+Permissions shouldn't be an afterthought. Access rules belong close to the business logic and data boundaries they protect.
+
+### Prefer clarity over unnecessary complexity.
+
+I would rather build a simple system that is easy to understand and evolve than introduce complexity before the problem requires it.
+
+### Build for change.
+
+Requirements evolve. Good architecture should make that evolution less painful.
+
+### Learn by building.
+
+The fastest way I have found to understand a technology is to use it to solve a real problem.
+
+---
+
+# 🔭 Currently
+
+**Building**
+
+Full-stack systems and backend-heavy applications.
+
+**Exploring**
+
+System design, scalable backend architecture, AI-powered products, and modern developer workflows.
+
+**Improving**
+
+Architecture, testing, security, database design, performance, and production engineering.
+
+---
+
+# 🧪 Engineering Interests
+
+```text
+Backend Architecture
+████████████████████
+
+System Design
+██████████████████░░
+
+Full-Stack Development
+████████████████████
+
+AI Applications
+██████████████████░░
+
+Database Engineering
+██████████████████░░
+
+Interactive Web
+████████████████░░░░
 ```
 
+These aren't performance scores.
+
+They're simply a visual representation of the areas I currently spend the most time exploring.
+
+---
+
+# 🛰️ Engineering Control Room
+
+```text
+┌─────────────────────────────────────────────────────┐
+│                 ENGINEERING CONTROL                 │
+├─────────────────────────────────────────────────────┤
+│                                                     │
+│  PRIMARY FOCUS                                      │
+│  Backend Architecture · Full-Stack Systems          │
+│                                                     │
+│  BUILDING                                           │
+│  Products · Business Systems · AI Applications      │
+│                                                     │
+│  CORE                                                │
+│  TypeScript · Java · Python · PostgreSQL            │
+│                                                     │
+│  FRAMEWORKS                                          │
+│  Next.js · React · Django · Spring Boot             │
+│                                                     │
+│  PRINCIPLES                                          │
+│  Correctness · Clarity · Maintainability            │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 4. Enterprise Inventory-Backend README
-*Paste this into your `inventory-backend` repository `README.md`.*
+# 📐 Selected Engineering Questions
 
-```markdown
-# Enterprise Inventory & Business Backend
+I enjoy the questions behind the code:
 
-> A highly scalable inventory management and ERP backend featuring a complex 10-role organizational authorization matrix and robust data validation workflows.
+> How should a system enforce authorization when data belongs to different locations?
 
-## 📖 The Problem
-Enterprise inventory systems require strict data isolation between locations, precise auditing for stock movements, and complex permission hierarchies that basic CRUD applications cannot securely handle.
+> Where should a business rule live so that it cannot easily be bypassed?
 
-## 💡 The Solution
-A Spring Boot and PostgreSQL backend designed around tenant-aware architecture, capable of routing funds, restricting stock access based on geographical authorization, and mapping complex reporting permissions.
+> When is a simple architecture no longer enough?
 
-## 🛠️ Core Technology Stack
-* **Backend:** Java, Spring Boot, Maven
-* **Database:** PostgreSQL, JPA / Hibernate
-* **Infrastructure:** Docker
-* **Integrations:** Clerk Auth, Twilio Voice
+> How should an AI capability become part of a real product rather than simply an API call?
 
-## 🧠 Engineering Decisions
-* **10-Role Permission Matrix:** Engineered a granular authorization framework that dictates management role responsibilities, fund routing flows, and report visibility, ensuring strict data governance across the organization.
-* **Location-Based Stock Validation:** Implemented business rules that restrict stock reads and writes strictly to authorized locations. When reserving inventory by ID, the system enforces logic to use the actual stock entry location, preventing cross-location data leakage.
-* **Data Ingestion Optimization:** Refactored the customer module to remove rigid TIN and phone number validations, optimizing the onboarding pipeline while maintaining core system integrity.
+> How can a system remain understandable as its requirements grow?
 
-## 🚀 Local Development Setup
-
-### Prerequisites
-* Java 17+
-* Maven
-* Docker & Docker Compose
-
-### Installation
-```bash
-git clone [https://github.com/meraman750/inventory-backend.git](https://github.com/meraman750/inventory-backend.git)
-cd inventory-backend
-docker-compose up -d  # Starts local PostgreSQL & Redis
-mvn clean install
-mvn spring-boot:run
-
-```
-
-```
+These questions increasingly shape how I approach the systems I build.
 
 ---
 
-### 5. Repository Topics (For the GitHub UI)
-*Copy and paste these exact terms into the "Topics" settings (the gear icon ⚙️) on the right side of each repository page.*
+# 📊 GitHub Activity
 
-**For FixIT:**
-`django, postgresql, marketplace-architecture, location-matching, rapidfuzz, rbac, api-design, backend`
+I prefer **proof of work over vanity metrics**.
 
-**For Inventory-Backend:**
-`spring-boot, java, postgresql, erp-architecture, rbac, clerk-auth, twilio, business-logic`
+The repositories below represent the systems, experiments, and ideas I have chosen to build and maintain.
 
-**For Brightroot Academy:**
-`nextjs, ai-education, gemini-api, openai, rag, smart-search, edtech, fullstack`
+[Explore my repositories →](https://github.com/meraman750?tab=repositories)
 
-**For Your Portfolio:**
-`nextjs, threejs, tailwindcss, interactive-ui, 3d-web, frontend-architecture`
+---
 
-```
+# 🤝 Let's Build
+
+I'm interested in:
+
+* Software engineering opportunities
+* Internships and early-career engineering roles
+* Open-source collaboration
+* Backend and full-stack systems
+* AI-powered products
+* Interesting technical problems
+
+If you're building something ambitious, I'd be happy to connect.
+
+---
+
+<sub>Building systems. Learning continuously. Shipping deliberately.</sub>
