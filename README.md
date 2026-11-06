@@ -8,7 +8,7 @@ Building backend architectures, intelligent products, and modern web experiences
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portfolio-fkjdxizl3-mera7.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white)]([https://portfolio-fkjdxizl3-mera7.vercel.app/](https://meheretabeabayneh.pro.et/))
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meheretabe-abayneh-210627372/)
 [![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/meraman750)
 [![Email](https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meraman675@gmail.com)
